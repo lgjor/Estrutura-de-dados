@@ -7,6 +7,6 @@ struct Fila{
 
 void create (struct Fila *f);
 void insert (struct Fila *f, int elemento);
-int remove (struct Fila *f);
+int retirar (struct Fila *f);
 int isEmpty (struct Fila f);
 int isFull (struct Fila f);

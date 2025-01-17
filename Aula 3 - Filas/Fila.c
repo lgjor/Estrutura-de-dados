@@ -12,7 +12,7 @@ void insert(struct Fila *f, int elemento) {
     f->total=f->total+1;
 }
 
-int remove(struct Fila *f) {
+int retirar(struct Fila *f) {
     int elemento = f->valores[f->inicio];
     f->inicio = (f->inicio + 1) % 10;
     f->total = f->total - 1;

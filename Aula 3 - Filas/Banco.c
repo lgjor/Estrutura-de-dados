@@ -20,7 +20,7 @@ int main(int argc, char *argv[]){
     printf("Atendimento:\n");
 
     while (!isEmpty(f)){
-        elemento = remove(&f);
+        elemento = retirar(&f);
         printf("Número da senha a ser removida %d\n", elemento);
     }
     return 0;

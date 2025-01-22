@@ -1,4 +1,4 @@
-public class PilhaDinamica{
+public class PilhaDinamica implements IPilha{
     private Caixinha topo;
 
     public PilhaDinamica(){

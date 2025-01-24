@@ -9,6 +9,7 @@ public class MinhaApp{
         System.out.println("Posição do elemento 56: "+colecao.buscaSequencial(56));
         System.out.println("\n\n");
         System.out.println("--------------- Busca Binária ---------------");
+
         System.out.println("Posição do elemento 23: "+colecao.buscaBinaria(23));
         System.out.println("Posição do elemento 12: "+colecao.buscaBinaria(12));
         System.out.println("Posição do elemento 76: "+colecao.buscaBinaria(76));

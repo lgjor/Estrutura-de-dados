@@ -42,11 +42,11 @@ public class ListaDuplaCircular{
 
     public void exibirNaOrdemInversa(){
         CaixinhaDupla tmp;
-        tmp = inicio.getAnterior();
+        tmp = inicio.getAnterior(); //Começa pelo último elemento
         System.out.println("Exibindo elementos na ordem inversa em que foram inseridos:\n");
         do {
             System.out.println("Elemento da lista = "+tmp.getElemento());
-            tmp = tmp.getAnterior();
-        } while (tmp != inicio.getAnterior());
+            tmp = tmp.getAnterior(); 
+        } while (tmp != inicio.getAnterior()); // Termina no primeiro elemento
     }
 }

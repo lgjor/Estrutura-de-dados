@@ -11,7 +11,7 @@ Algorítmos e implementações básicas em estruturas de dados.
 
 - [Estude com o mestre professor Isidro](https://www.professorisidro.com.br/)
 
-## Índice
+## 🗺 Índice
 
 ### 🔹 Tipos Abstratos de Dados
 

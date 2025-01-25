@@ -13,17 +13,17 @@ Algorítmos e implementações básicas em estruturas de dados.
 
 ## Índice
 
-### 🔷 Tipos Abstratos de Dados
+### 🔹 Tipos Abstratos de Dados
 
-### 🔷 A Pilha
+### 🔹 A Pilha
 
 #### 🔸2.1 - A Pilha estática
 
-### 🔷 A Fila
+### 🔹 A Fila
 
 #### 🔸3.1 - A Fila Estática – Conceitos e Implementações
 
-### 🔷 Listas Encadeadas – conceitos e implementação
+### 🔹 Listas Encadeadas – conceitos e implementação
 
 #### 🔸4-3 Pilha Implementada como uma Lista
 
@@ -31,7 +31,7 @@ Algorítmos e implementações básicas em estruturas de dados.
 
 #### 🔸4-7 Listas Circulares Duplamente Encadeadas
 
-### 🔷 Busca e classificação
+### 🔹 Busca e classificação
 
 #### 🔸5.1 Busca Sequencial e Binária
 
@@ -43,11 +43,11 @@ Algorítmos e implementações básicas em estruturas de dados.
 
 #### 🔸5.6 Quick Sort
 
-### 🔷 Hash - Espalhamento
+### 🔹 Hash - Espalhamento
 
 #### 🔸6.1 Hash – Conceitos e Implementação
 
-### 🔷 Árvores
+### 🔹Árvores
 
 #### 🔸7.1 Árvores Binárias de Busca – Inserção e Busca
 

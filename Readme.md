@@ -13,9 +13,9 @@ Algorítmos e implementações básicas em estruturas de dados.
 
 ## Índice
 
-### 🔷 1 - Tipos Abstratos de Dados
+### 🔷 Tipos Abstratos de Dados
 
-### 🔷 2 - A Pilha
+### 🔷 ::A Pilha
 
 #### 🔹2.1 - A Pilha estática
 

@@ -17,42 +17,42 @@ Algorítmos e implementações básicas em estruturas de dados.
 
 ### 🔷 ::A Pilha
 
-#### 🔹2.1 - A Pilha estática
+#### 🔸2.1 - A Pilha estática
 
 ### 🔷 A Fila
 
-#### 🔹3.1 - A Fila Estática – Conceitos e Implementações
+#### 🔸3.1 - A Fila Estática – Conceitos e Implementações
 
 ### 🔷 Listas Encadeadas – conceitos e implementação
 
-#### 🔹4-3 Pilha Implementada como uma Lista
+#### 🔸4-3 Pilha Implementada como uma Lista
 
-#### 🔹4-3-1 Pilha Dinamica
+#### 🔸4-3-1 Pilha Dinamica
 
-#### 🔹4-7 Listas Circulares Duplamente Encadeadas
+#### 🔸4-7 Listas Circulares Duplamente Encadeadas
 
 ### 🔷 Busca e classificação
 
-#### 🔹5.1 Busca Sequencial e Binária
+#### 🔸5.1 Busca Sequencial e Binária
 
-#### 🔹5.3 Bubble Sort
+#### 🔸5.3 Bubble Sort
 
-#### 🔹5.4 Selection Sort
+#### 🔸5.4 Selection Sort
 
-#### 🔹5.5 Insertion Sort
+#### 🔸5.5 Insertion Sort
 
-#### 🔹5.6 Quick Sort
+#### 🔸5.6 Quick Sort
 
 ### 🔷 Hash - Espalhamento
 
-#### 🔹6.1 Hash – Conceitos e Implementação
+#### 🔸6.1 Hash – Conceitos e Implementação
 
 ### 🔷 Árvores
 
-#### 🔹7.1 Árvores Binárias de Busca – Inserção e Busca
+#### 🔸7.1 Árvores Binárias de Busca – Inserção e Busca
 
-#### 🔹7.2 Árvores Binárias de Busca – Remoção de Elementos
+#### 🔸7.2 Árvores Binárias de Busca – Remoção de Elementos
 
-#### 🔹7.4 Árvores AVL – Conceito e definições
+#### 🔸7.4 Árvores AVL – Conceito e definições
 
-#### 🔹7.4 Árvores AVL
+#### 🔸7.4 Árvores AVL

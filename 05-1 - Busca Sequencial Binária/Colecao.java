@@ -8,7 +8,7 @@ public class Colecao{
         for(pos = 0; pos < valores.length; pos++){
             if(val==valores[pos]){
                 System.out.println("Iterações: "+iteracoes);
-                return pos;
+                return pos; // Retorna a posição do elemento no array
             }
             iteracoes++;
         }

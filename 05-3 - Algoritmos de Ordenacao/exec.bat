@@ -1,0 +1,1 @@
+java MainApp 50000 < valores.txt > saida.txt

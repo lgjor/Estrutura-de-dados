@@ -1,0 +1,2 @@
+ptime execBubble100.bat
+ptime execSelection100.bat

@@ -1,0 +1,1 @@
+java MainApp 50000 2 < piorCaso100.txt > saidaSelection100.txt

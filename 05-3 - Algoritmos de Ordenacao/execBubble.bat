@@ -1,0 +1,1 @@
+java MainApp 50000 1 < piorCaso.txt > saidaBubble.txt

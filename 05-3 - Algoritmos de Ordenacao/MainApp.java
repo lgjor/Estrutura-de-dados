@@ -8,6 +8,7 @@ java MainApp [tamanhoDoVetorASerCriado] [qualAlgoritmo] < arquivoComDadosdoVetor
 qualAlgoritmo
 1 = Bubble Sort
 2 = Selection Sort
+3 = Insertion Sort
 
  */
 public class MainApp{
@@ -27,6 +28,9 @@ public class MainApp{
         }
         else if (opcao == 2){
             alg.selectionSort();
+        }
+        else if (opcao == 3){
+            alg.insertionSort();
         }
         alg.mostraVetor();
     }

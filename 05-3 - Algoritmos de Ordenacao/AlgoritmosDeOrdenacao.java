@@ -15,7 +15,7 @@ public class AlgoritmosDeOrdenacao{
         for (it=0; it < vetor.length; it++){
             for (pos = 0; pos < vetor.length -it -1; pos++){
                 // comparo o elemento da posição com o seu próximo
-                if (vetor[pos] > vetor[pos+1]){
+                if (vetor[pos] > vetor[pos+1]){ // o elemento atual é maior que seu próximo?
                     temp            = vetor[pos];
                     vetor[pos]      = vetor[pos+1];
                     vetor[pos+1]    = temp;
@@ -52,12 +52,25 @@ public class AlgoritmosDeOrdenacao{
             mostraVetor();*/
         }
     }
+
+    public void insertionSort(){ 
+        int carta, it, j; // a iteracao vai "selecionar a carta da vez" e aí, tenho que "puxar" todos os elementos que são maiores
+        for (it = 1; it < vetor.length; it++){
+            carta = vetor[it]; // guardo a carta
+            for (j = it-1; (j>=0) && vetor[j] > carta; j--){
+                vetor[j+1] = vetor[j]; // estou trocando todos que são maiores do que eu
+            }
+            vetor[j+1] = carta;
+            //System.out.println(“—— Iteracao “+ it);
+            //mostraVetor();
+        }
+    }
     
     public void mostraVetor(){
         for (int i=0; i<vetor.length; i++){
             System.out.print(vetor[i]+ " ");
         }
+        System.out.println("");
     }
 
 }
-

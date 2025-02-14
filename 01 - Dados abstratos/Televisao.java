@@ -35,7 +35,7 @@ public class Televisao {
 
     public void defineCanal(int canal){
         if (ligada) {
-            canal = canal;
+            canal = 1;
             System.out.println("TV "+marca+" Com canal definido para "+canal);
         }
         else {

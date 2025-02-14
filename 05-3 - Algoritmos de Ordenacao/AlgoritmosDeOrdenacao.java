@@ -4,13 +4,15 @@ public class AlgoritmosDeOrdenacao{
     public void setVetor(int vetor[]){
         this.vetor = vetor;
     }
+
+    public int[] getVetor(){
+        return vetor;
+    }
     
     public void bubbleSort(){
         int it; // numero de iterações
         int pos; // sempre uso a posição atual
         int temp; // variável para a troca
-
-        System.out.println("Realizando BubbleSort em um vetor de "+vetor.length+" elementos");
 
         for (it=0; it < vetor.length; it++){
             for (pos = 0; pos < vetor.length -it -1; pos++){
@@ -55,6 +57,7 @@ public class AlgoritmosDeOrdenacao{
 
     public void insertionSort(){ 
         int carta, it, j; // a iteracao vai "selecionar a carta da vez" e aí, tenho que "puxar" todos os elementos que são maiores
+
         for (it = 1; it < vetor.length; it++){
             carta = vetor[it]; // guardo a carta
             for (j = it-1; (j>=0) && vetor[j] > carta; j--){
@@ -64,6 +67,44 @@ public class AlgoritmosDeOrdenacao{
             //System.out.println(“—— Iteracao “+ it);
             //mostraVetor();
         }
+    }
+
+    public int partition(int inicio, int fim){
+        int ref, up, down, temp;
+        ref = vetor[inicio];
+        down = inicio;
+        up = fim;
+        
+        while (down < up) {
+            // encontrando um número maior que o pivô (ref)
+            while (vetor[down]<=ref && down < fim){
+                down++;  // Acanço porque quero encontrar um valor maior
+            }
+            // também quero encontrar a partir do fim um valor menor do que o meu de referência
+            while (vetor[up] > ref){
+                up--;
+            }
+
+            if (down < up){ // Eles não se cruzaram nos índices
+                //troca
+                temp = vetor[down];
+                vetor[down] = vetor[up];
+                vetor[up]= temp;
+            } 
+        }
+        vetor[inicio] = vetor[up];
+        vetor[up]=ref;
+        return up; // no final das contas é a posição de up que denota onde está o pivô
+    }
+
+    public void quickSort(int inicio, int fim) {
+        int pivo;
+        if ( inicio > fim ){
+            return;
+        }
+        pivo = partition(inicio, fim);
+        quickSort(inicio, pivo-1);
+        quickSort(pivo+1, fim);
     }
     
     public void mostraVetor(){

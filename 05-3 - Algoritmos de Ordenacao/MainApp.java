@@ -23,15 +23,25 @@ public class MainApp{
 
         AlgoritmosDeOrdenacao alg = new AlgoritmosDeOrdenacao();
         alg.setVetor(vetor);
+        long inicio = System.currentTimeMillis();
         if (opcao == 1){
+            System.out.println("Realizando Bubble Sort em um vetor de "+vetor.length+" elementos");
             alg.bubbleSort();
         }
         else if (opcao == 2){
+            System.out.println("Realizando Selection Sort em um vetor de "+vetor.length+" elementos");
             alg.selectionSort();
         }
         else if (opcao == 3){
+            System.out.println("Realizando Insertion Sort em um vetor de "+vetor.length+" elementos");
             alg.insertionSort();
         }
-        alg.mostraVetor();
+        else if (opcao == 4){
+            System.out.println("Realizando Quick Sort em um vetor de "+vetor.length+" elementos");
+            alg.quickSort(0,alg.getVetor().length-1);
+        }
+        long fim = System.currentTimeMillis();
+        System.out.println("Demorou "+(fim-inicio)+" milisegundos para ordenar");
+        // alg.mostraVetor();
     }
 }

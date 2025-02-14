@@ -99,12 +99,12 @@ public class AlgoritmosDeOrdenacao{
 
     public void quickSort(int inicio, int fim) {
         int pivo;
-        if ( inicio > fim ){
+        if ( inicio > fim ){ // Se o vetor só tem um elemento, ele já está ordenado
             return;
         }
-        pivo = partition(inicio, fim);
-        quickSort(inicio, pivo-1);
-        quickSort(pivo+1, fim);
+        pivo = partition(inicio, fim); // Determino o pivo pelo método partition
+        quickSort(inicio, pivo-1); // Aplico o quick sort para os elementos anteriores ao pivô
+        quickSort(pivo+1, fim); // Aplico o quick sort para os elementos posteriores ao pivô
     }
     
     public void mostraVetor(){
